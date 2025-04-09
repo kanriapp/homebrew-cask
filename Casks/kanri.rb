@@ -1,9 +1,9 @@
 cask "kanri" do
     arch arm: "aarch64", intel: "x64"
   
-    version "0.7.1"
-    sha256 arm:   "7e144746edcb304238f2e8e6f1518fae47e987c181aee57d43411d78341e027b",
-           intel: "d09b7b724109e1f5b3325a554cb403838d6ee112d863a7ceb9deb3890c266f01"
+    version "0.8.1"
+    sha256 arm:   "af32ae01ae6cece03e6bae9764ef691a09d7697c4c49ee98281d013f8f0b630d",
+           intel: "a043165df1726ea89a6c35185d3cf138a31eee5ee0dde5c3a81dcf3b523d628d"
   
     url "https://github.com/trobonox/kanri/releases/download/app-v#{version}/kanri_#{version}_#{arch}.dmg"
     name "Kanri"
