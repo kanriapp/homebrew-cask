@@ -19,13 +19,12 @@ brew untap trobonox/cask
 To install the new cask from this repository, run:
 
 ```sh
-brew tap kanriapp/cask
-brew install kanri
+brew install --no-quarantine kanriapp/cask/kanri
 ```
 
 ### Apple Silicon Macs
 
-For users on Apple Silicon Macs, you may need to run the following command to avoid potential issues:
+For users on Apple Silicon Macs, you may need to run the following command to avoid potential issues (should not be needed when installing through homebrew):
 
 ```sh
 xattr -cr /Applications/Kanri.app
